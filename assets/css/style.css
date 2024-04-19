@@ -8,7 +8,7 @@
 }
 
 
-/*header-------------*/
+/*heading-------------*/
 
 header {
     margin: 0;
@@ -21,11 +21,18 @@ header {
     padding-top: 5px;
     font-size: 250%;
     color: #96c461;
+    margin-left: 10px;
     
 }
 
 .love-to-pub-stop {
     color: #96c461;
     font-family: "Architects Daughter",sans-serif;
+    font-size: 46px;
     font-weight: 800px;
+    background-color: #1d1f48;
+    padding-top: 10px;
+   
 }
+
+
