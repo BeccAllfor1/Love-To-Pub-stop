@@ -148,7 +148,8 @@ min-height: 50px;
 margin: 0;
 padding:0;
 width:100%;
-height: auto;
+max-height: 900px;
+
 
 
     
@@ -166,15 +167,15 @@ height: auto;
     
     .camper-van-countryside{
         max-height: 200px;
-        max-width: 300px;
+        max-width: 150px;
     }
 .camper-van-town {
     max-height: 200px;
-    max-width: 300px;
+    max-width: 150px;
 }
 
 .campervan-coast{
 
-    max-height: 200px;
-    max-width: 300px;
+    min-height: 200px !important;
+    max-width: 150px !important;
 }
