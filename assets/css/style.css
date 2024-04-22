@@ -12,6 +12,10 @@ html, body {
     overflow-x: hidden;
 }
 
+main {
+    flex:1;
+}
+
 
 /*general-------- the body and content push footer to bottom of page*/
 
@@ -24,9 +28,6 @@ body {
     background-color:#A5B452 ;
 
     
-}
-.content{
-    flex:1 ;
 }
 
 
@@ -128,6 +129,7 @@ header {
     height: 100px;
 }
 
+/*footer-------------*/
 
 .social-icons{
 font-size:  40px;
@@ -135,4 +137,31 @@ background-color: #3D0814;
 min-height: 50px;
 
 
+
 }
+/*main---------*/
+
+
+
+    
+.campervan-img {
+margin: 0;
+padding:0;
+width:100%;
+height: auto;
+
+
+    
+}
+    
+.hero-image{
+    padding:0;
+}
+
+.campervan-locations{
+    list-style-type:none;
+    min-height: 65px;
+   
+}
+    
+    
