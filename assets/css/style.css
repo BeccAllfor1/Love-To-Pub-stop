@@ -156,12 +156,25 @@ height: auto;
     
 .hero-image{
     padding:0;
-}
 
-.campervan-locations{
-    list-style-type:none;
-    min-height: 65px;
    
 }
+    .coastal-countryside-city{
+        
+        padding-top: 20px;
+    }
     
-    
+    .camper-van-countryside{
+        max-height: 200px;
+        max-width: 300px;
+    }
+.camper-van-town {
+    max-height: 200px;
+    max-width: 300px;
+}
+
+.campervan-coast{
+
+    max-height: 200px;
+    max-width: 300px;
+}
