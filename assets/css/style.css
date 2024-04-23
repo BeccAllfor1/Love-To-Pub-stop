@@ -148,7 +148,7 @@ min-height: 50px;
 margin: 0;
 padding:0;
 width:100%;
-max-height: 900px;
+max-height: 1400px;
 
 
 
@@ -162,13 +162,16 @@ max-height: 900px;
 }
     .coastal-countryside-city{
         
-        padding-top: 20px;
+        padding: 40px 20px;
+        font-family:'Oswald', sans-serif; 
+        font-size: 30px;
     }
     
     .camper-van-countryside{
         max-height: 200px;
         max-width: 150px;
     }
+
 .camper-van-town {
     max-height: 200px;
     max-width: 150px;
@@ -178,4 +181,16 @@ max-height: 900px;
 
     min-height: 200px !important;
     max-width: 150px !important;
+}
+
+
+.Welcome h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+
+.details-welcome{
+
+    font-family: 'Exo', sans serif;
+    font-size: 20px;
 }
