@@ -39,6 +39,9 @@ body {
 .list-inline-item a {
     color: #FFC09F;
 }
+.signup-main{
+ color: #000000;   
+}
 
 
 
@@ -49,9 +52,12 @@ body {
 header {
     margin: 0;
 
-
 }
  
+.fixed-header{
+
+    top:0;
+}
 
 .logo{
     padding-top: 5px;
@@ -191,6 +197,33 @@ max-height: 1400px;
 
 .details-welcome{
 
-    font-family: 'Exo', sans serif;
+    font-family: 'Exo', sans-serif;
     font-size: 20px;
 }
+.hvr-sweep-to-bottom{
+
+    
+    font-size: 30px;
+    
+    
+  
+}
+
+.input-group mb-3{
+    font-family:'Exo', sans-serif ;
+} 
+login-tab {
+    font-family:'Exo', sans-serif ;
+}
+
+
+  
+    
+/* media query----------*/
+
+@media(min-width:768px) {
+    .
+    
+    } 
+
+
