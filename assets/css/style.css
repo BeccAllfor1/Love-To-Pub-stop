@@ -42,6 +42,11 @@ body {
 .signup-main{
  color: #000000;   
 }
+.login{
+    background-color: #3D0814;
+    border: #3D0814;
+    color: #FFC09F;
+}
 
 
 
@@ -61,7 +66,7 @@ header {
 
 .logo{
     padding-top: 5px;
-    font-size: 250%;
+    font-size: 300%;
     color: #FFC09F;
     margin-left: 10px;
     
@@ -132,7 +137,7 @@ header {
 /*-----------------------------hover.css*/
 .hvr-sweep-to-bottom:before {
     background: rgba(25, 25, 25, 0.2);
-    height: 100px;
+    height: 50px;
 }
 
 /*footer-------------*/
@@ -189,7 +194,9 @@ max-height: 1400px;
     max-width: 150px !important;
 }
 
-
+.Welcome{
+    margin:0;
+}
 .Welcome h2 {
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
@@ -200,10 +207,9 @@ max-height: 1400px;
     font-family: 'Exo', sans-serif;
     font-size: 20px;
 }
-.hvr-sweep-to-bottom{
+.hvr-sweep-to-bottom {
 
-    
-    font-size: 30px;
+    font-size: 25px;
     
     
   
@@ -212,18 +218,28 @@ max-height: 1400px;
 .input-group mb-3{
     font-family:'Exo', sans-serif ;
 } 
-login-tab {
-    font-family:'Exo', sans-serif ;
+.signup-login{
+
+    display:flex
 }
 
+  .login{
 
+    font-family:'Exo', sans-serif ;
+    font-size: 20px;
+    
+    
+} 
+.form{
+    padding-top: 40px;
+}
   
     
 /* media query----------*/
 
-@media(min-width:768px) {
-    .
+
     
-    } 
+    
+
 
 
