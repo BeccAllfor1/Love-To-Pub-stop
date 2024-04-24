@@ -223,27 +223,42 @@ max-height: 1400px;
 } 
 .signup-login{
 
-    display:flex
-}
-
-  .login{
-
+    display:flex;
     font-family:'Exo', sans-serif ;
-    font-size: 20px;
-    
-    
-} 
-.form{
-    padding-top: 40px;
 }
+.form-login{
+    padding-bottom: 5px;
+    padding-top: 40px;
+ }
+    
+
+
  /*results.html- main------*/
- .pub-crown {
+
+ .first-result-pub{
+
+  max-height:  200px;
+ }
+
+ .second-result-pub{
+    max-height:200px;
+ }
+ .third-result-pub{
+    max-height:200px;
+
+ }
+ .fourth-result-pub{
+    max-height: 200PX;
+ }
+ .pub-lighthouse {
    display: flex;
-padding-top: 150px;
+   padding-top: 90px;
+
  }
  .pub-lighthouse-inn{
-    max-width:  150px;
+    max-width:  100px;
     border-radius: 50%;
+    padding-right: 5px;
  }
  
  .results-search{
@@ -253,15 +268,14 @@ padding-top: 150px;
     font-size: 10px;
     
  }
+.result-para-lighthouse{
+
+   
+
+}
  
- .picture-result-pub p{
-    font-family:'Exo', sans-serif ;
-    font-size: 10px;
-    
- }
- .form-login{
-    padding-bottom: 5px;
- }
+ 
+ 
 
 
 
