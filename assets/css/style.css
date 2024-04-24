@@ -14,6 +14,7 @@ html, body {
 
 main {
     flex:1;
+    margin-top: 100px;
 }
 
 
@@ -152,7 +153,9 @@ min-height: 50px;
 }
 /*main---------*/
 
-
+main{
+    margin-top: 70px;
+}
 
     
 .campervan-img {
@@ -233,13 +236,34 @@ max-height: 1400px;
 .form{
     padding-top: 40px;
 }
-  
+ /*results.html- main------*/
+ .pub-crown {
+   display: flex;
+padding-top: 150px;
+ }
+ .pub-lighthouse-inn{
+    max-width:  150px;
+    border-radius: 50%;
+ }
+ 
+ .results-search{
+    display:flex;
+    align-self:flex-end;
+    font-family:'Exo', sans-serif ;
+    font-size: 10px;
     
-/* media query----------*/
-
-
+ }
+ 
+ .picture-result-pub p{
+    font-family:'Exo', sans-serif ;
+    font-size: 10px;
     
+ }
+ .form-login{
+    padding-bottom: 5px;
+ }
+
+
+
+    /*media querys-----*/
     
-
-
-
